@@ -12,7 +12,7 @@ public class 주사위게임 {
 
 			if (num1 == num2) {
 				isContinue = false;
-
+////
 			}
 		}
 		System.out.println();

@@ -1,3 +1,4 @@
+package Example;
 
 public class 가위바위보 {
 	public static void main(String[] args) {
@@ -5,7 +6,7 @@ public class 가위바위보 {
 		// 0.0 <= X < 1.0 사이값 나옴 //1은 나오지 않음
 		// 가위 = 0 , 바위 = 1 , 보 = 2
 		double ran = Math.random();
-		int com = (int)(ran * 3); //(int)로 소수점을 모두 소거
+int com = (int)(ran * 3); //(int)로 소수점을 모두 소거
 		System.out.println(ran);
 		System.out.println(com);
 		int player = 2 ;

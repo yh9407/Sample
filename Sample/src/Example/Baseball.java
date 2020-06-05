@@ -1,4 +1,4 @@
-package ch04;
+package Example;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

@@ -1,4 +1,4 @@
-package ch04;
+package Example;
 
 import java.util.Arrays;
 

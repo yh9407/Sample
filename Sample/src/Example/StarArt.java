@@ -1,8 +1,8 @@
-package ch04;
+package Example;
 
 public class StarArt {
 	public static void main(String[] args) {
-		int center = 9 / 2 + 1;
+		int center = 10 / 2 + 1;
 
 		for (int i = 0; i <= center; i++) {// yÃà
 
@@ -14,7 +14,7 @@ public class StarArt {
 			}
 			System.out.println();
 		}
-		for (int i = 4; i >= 0; i--) {
+		for (int i = center -1; i >= 0; i--) {
 			for (int j = 0; j <= center - i; j++) {
 				System.out.print(" ");
 			}
